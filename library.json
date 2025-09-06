@@ -1,0 +1,47 @@
+{
+  "name": "ESPOTAUpdater",
+  "version": "1.0.0",
+  "description": "ESP32 Over-The-Air update library with GitHub releases integration and multi-board support",
+  "keywords": [
+    "esp32",
+    "ota",
+    "update",
+    "firmware",
+    "github",
+    "releases",
+    "arduino",
+    "iot"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stevennolte/ESPOTAUpdater.git"
+  },
+  "authors": [
+    {
+      "name": "Steve Nolte",
+      "email": "stevennolte@example.com",
+      "maintainer": true
+    }
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/stevennolte/ESPOTAUpdater",
+  "dependencies": {
+    "ArduinoJson": "^6.21.0"
+  },
+  "frameworks": [
+    "arduino"
+  ],
+  "platforms": [
+    "espressif32"
+  ],
+  "export": {
+    "include": [
+      "src/*",
+      "examples/*",
+      "README.md",
+      "LICENSE",
+      "library.json",
+      "library.properties"
+    ]
+  }
+}
